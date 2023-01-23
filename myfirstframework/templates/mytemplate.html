@@ -1,0 +1,7 @@
+<h1>My First Framework</h1>
+<!-- <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/> -->
+<ul>
+{% for obj in my_model %}
+    <li>{{ obj.name }} - {{ obj.description }}</li>
+{% endfor %}
+</ul>
